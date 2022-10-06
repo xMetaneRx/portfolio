@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^1.1.4",
+    "@astrojs/tailwind": "^2.0.2",
+    "@types/react": "^18.0.21",
+    "astro": "^1.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "description": "All commands are run from the root of the project, from a terminal:",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xMetaneRx/portfolio.git"
+  },
+  "author": "xMetaneRx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xMetaneRx/portfolio/issues"
+  },
+  "homepage": "https://github.com/xMetaneRx/portfolio#readme"
+}

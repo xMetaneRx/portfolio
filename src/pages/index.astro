@@ -1,0 +1,23 @@
+---
+import About from '../components/About/About';
+import Tools from '../components/Tools/Tools';
+import Projects from '../components/Projects/Projects';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Portfolio">
+		<meta name="generator" content={Astro.generator} />
+		<title>Portfolio</title>
+	</head>
+	<body class="bg-slate-800">
+		<main class="min-h-screen text-white p-6 max-w-3xl mx-auto">
+			<About />
+			<Tools />
+			<Projects />
+		</main>
+	</body>
+</html>
