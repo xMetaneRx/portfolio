@@ -33,7 +33,7 @@ const Tools = () => {
 
     return (
         <>
-            <section className="my-8">
+            <section className="my-16">
                 <h2 className="text-2xl font-bold">Languages and tools:</h2>
                 <div className="flex flex-col flex-wrap md:flex-row">
                     {tools.map((tool) => (

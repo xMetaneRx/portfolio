@@ -3,7 +3,7 @@ import profile from "../../assets/avatar.svg";
 const Contact = () => {
     return (
         <>
-            <section className="flex flex-col-reverse md:flex-row items-center gap-1">
+            <section className="flex flex-col-reverse md:flex-row items-center gap-1 mt-16">
                 <div>
                     <h2 className="text-3xl my-2">Hi 👋, I'm Dawid.</h2>
                     <p className="text-sm my-2 text-neutral-300 leading-6">
