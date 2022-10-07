@@ -26,7 +26,7 @@ export default function Projects() {
                         (project) =>
                         project.fork === false &&
                         project.name !== "xMetaneRx" && (
-                                <div className="bg-zinc-600 rounded-lg p-4 my-4" key={project.id}>
+                                <div className="bg-zinc-600 rounded-lg p-4 my-4" key={project.name}>
                                     <div className="flex justify-between items-center">
                                         <h3 className="text-2xl font-bold">
                                             {project.name}

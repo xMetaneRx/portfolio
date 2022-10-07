@@ -1,4 +1,3 @@
-import React from "@astrojs/react";
 import profile from "../../assets/avatar.svg";
 
 const Contact = () => {
