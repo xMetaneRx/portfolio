@@ -26,7 +26,7 @@ export default function Projects() {
                         (project) =>
                         project.fork === false &&
                         project.name !== "xMetaneRx" && (
-                                <div className="bg-zinc-600 rounded-lg p-4 my-4" key={project.name}>
+                                <div className="bg-zinc-600 rounded-lg p-4 my-4" key={project.id}>
                                     <div className="flex justify-between items-center">
                                         <h3 className="text-2xl font-bold">
                                             {project.name}
@@ -47,7 +47,7 @@ export default function Projects() {
                                     </p>
                                     <ul className="flex flex-wrap gap-1 md:gap-1.5 mt-4">
                                         {project.topics.map((topic) => (
-                                            <li className="bg-zinc-500 rounded-md py-0.5 px-1.5">
+                                            <li className="bg-zinc-500 rounded-md py-0.5 px-1.5" key={topic}>
                                                 {topic}
                                             </li>
                                         ))}

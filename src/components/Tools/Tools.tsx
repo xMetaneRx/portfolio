@@ -7,6 +7,8 @@ import reactIcon from "../../assets/react.png";
 import gitIcon from "../../assets/git.png";
 import firebaseIcon from "../../assets/firebase.png";
 import reduxIcon from '../../assets/redux.png';
+import bootstrapIcon from '../../assets/bootstrap.png';
+import tailwindIcon from '../../assets/tailwind.png';
 
 interface ITool {
     name: string;
@@ -21,7 +23,9 @@ const TOOLS = [
     { name: "React", icon: reactIcon },
     { name: "Git", icon: gitIcon },
     { name: "Firebase", icon: firebaseIcon },
-    { name: "Redux", icon: reduxIcon}
+    { name: "Redux", icon: reduxIcon},
+    { name: "Bootstrap", icon: bootstrapIcon},
+    { name: "Tailwindcss", icon: tailwindIcon},
 ];
 
 const Tools = () => {
