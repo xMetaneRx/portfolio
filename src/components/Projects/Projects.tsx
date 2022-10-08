@@ -35,7 +35,7 @@ export default function Projects() {
                                     <div className="flex justify-between items-center">
                                         <h3 className="text-2xl font-bold">
                                             {project.homepage !== "" ? (
-                                                <a href={project.homepage} className="flex flex-row items-center gap-1.5">
+                                                <a href={project.homepage} className="flex flex-row flex-wrap items-center gap-1.5">
                                                     {project.name} <img src={linkIcon} alt="" className="h-6 w-6" />
                                                 </a>
                                             ) : (
