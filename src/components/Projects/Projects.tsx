@@ -33,10 +33,18 @@ export default function Projects() {
                                     key={project.id}
                                 >
                                     <div className="flex justify-between items-center">
-                                        <h3 className="text-2xl font-bold">
+                                        <h3 className="text-xl font-bold">
                                             {project.homepage !== "" ? (
-                                                <a href={project.homepage} className="flex flex-row flex-wrap items-center gap-1.5">
-                                                    {project.name} <img src={linkIcon} alt="" className="h-6 w-6" />
+                                                <a
+                                                    href={project.homepage}
+                                                    className="flex flex-row flex-wrap items-center gap-1.5"
+                                                >
+                                                    {project.name}{" "}
+                                                    <img
+                                                        src={linkIcon}
+                                                        alt=""
+                                                        className="h-5 w-5"
+                                                    />
                                                 </a>
                                             ) : (
                                                 project.name
@@ -49,17 +57,17 @@ export default function Projects() {
                                             <img
                                                 src={githubIcon}
                                                 alt="github icon"
-                                                className="w-12 h-12"
+                                                className="w-8 h-8"
                                             />
                                         </a>
                                     </div>
-                                    <p className="text-neutral-300 my-2">
+                                    <p className="text-base text-neutral-300 my-2">
                                         {project.description}
                                     </p>
                                     <ul className="flex flex-wrap gap-1 md:gap-1.5 mt-4">
                                         {project.topics.map((topic) => (
                                             <li
-                                                className="bg-zinc-500 rounded-md py-0.5 px-1.5"
+                                                className="text-xs uppercase bg-zinc-500 rounded-md py-0.5 px-1.5"
                                                 key={topic}
                                             >
                                                 {topic}
