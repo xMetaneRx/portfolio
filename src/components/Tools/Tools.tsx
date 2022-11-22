@@ -34,11 +34,11 @@ const Tools = () => {
     return (
         <>
             <section className="my-16">
-                <h2 className="text-2xl font-bold">Languages and tools:</h2>
+                <h2 className="text-2xl font-bold my-2">Languages and tools:</h2>
                 <div className="flex flex-col flex-wrap md:flex-row">
                     {tools.map((tool) => (
                         <div className="flex basis-4/12 justify-space items-center gap-4" key={tool.name}>
-                            <span className="rounded-full bg-zinc-400 rounded-lg p-4 my-4 border-4 border-black">
+                            <span className="rounded-full bg-zinc-400 rounded-lg p-4 my-2 border-4 border-black">
                                 <img
                                     src={tool.icon}
                                     alt={tool.icon}
