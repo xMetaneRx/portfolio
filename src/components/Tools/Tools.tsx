@@ -42,7 +42,7 @@ const Tools = () => {
                                 <img
                                     src={tool.icon}
                                     alt={tool.icon}
-                                    className="w-12 h-12"
+                                    className="w-8 h-8"
                                 />
                             </span>
                             <p className="text-neutral-300">{tool.name}</p>
